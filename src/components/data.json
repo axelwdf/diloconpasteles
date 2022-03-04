@@ -1,0 +1,20 @@
+[
+    {
+      "img": "https://github.com/axelwdf/img-hub/blob/main/new-cookie.jpg?raw=true",
+      "title": "Galletas",
+      "price": "35 pesos x 100gr",
+      "taste": "Vainilla"
+    },
+    {
+      "img": "https://github.com/axelwdf/img-hub/blob/main/new-te-quiero.jpg?raw=true",
+      "title": "Pastel personalizable 10cm",
+      "price": "90 pesos",
+      "taste": "Chocolate"
+    },
+    {
+      "img": "https://github.com/axelwdf/img-hub/blob/main/cupCake.jpg?raw=true",
+      "title": "CupCakes (Diseño personalizado)",
+      "price": "Undefined",
+      "taste": "Chocolate y Vainilla"
+    }
+  ]

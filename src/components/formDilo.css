@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+.FormDilo{
+    background-color: #FDECE2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Titulo */
+.h3{
+    padding: 1.5rem;
+}
+
+/* label and inputs */
+.div-form{
+    padding: 1rem;
+}
+label{
+    display: flex;
+}
+input{
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0px 0px 10px -2px #000;
+    width: 13rem;
+    height: 2rem;
+}
+/* button */
+.submit{
+    border: 2px solid #5F4641;
+    border-radius: .5rem;
+    background-color: #FDECE2;
+    padding: .5rem;
+    margin: 1rem;
+    transition: 2.5s ;
+}
+.submit:active{
+    transform: scale(-1);
+}
+
+/* textarea */
+.textarea{
+    border: none;
+    box-shadow: 0px 0px 10px -2px #000;
+    border-radius: .5rem;
+}
+
+/* responsive */
+
+@media all and (min-width:511px){
+    label{
+        margin: 10px;
+    }
+    .textarea{
+        width: 80vh;
+    }
+}
+
+@media all and (min-width:611px){
+    .FormDilo{
+        font-size: 1.2rem;
+    }
+    .textarea{
+        width: 110vh;
+    }
+    
+}
+@media all and (min-width:811px){
+    .FormDilo{
+        font-size: 1.4rem;
+    }
+    
+}
+@media all and (min-width:911px){
+    .FormDilo{
+        font-size: 1.5rem;
+    }
+    
+}
+@media all and (min-width:945px){
+    .FormDilo{
+        font-size: 1.5rem;
+    }
+    .textarea{
+        width: 150vh;
+    }
+    
+}
+@media all and (min-width: 1161px){
+    .textarea{
+        width: 170vh;
+    }
+}
+
+@media all and (min-width: 1267px){
+    .textarea{
+        width: 190vh;
+        
+    }
+}
+
+
+
+
+
+

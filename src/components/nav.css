@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+.Nav{
+    width: 100%;
+    font-size: .7rem;
+    background-color: #FFBED8;
+    border-radius: 0 0 .5rem .5rem;
+    box-shadow: 0px 0px 10px -2px #000 ;
+    display: grid;
+    top:0;
+    position: fixed;
+    z-index:100;
+}
+.cupicon{
+    width: 5vh;   
+    margin: 0 1.5rem;
+}
+
+
+/* titulo */
+.h1-title{
+    color: #000;
+    text-align: center;
+    padding: .5rem 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Enlaces nav */
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ul-ch{
+    border-radius: .5rem;
+    padding: .2rem;
+    transition:2s linear;
+    color: #000;
+}
+.ul-ch:hover{
+    color: #AD8B73;
+}
+.ul-ch:active{
+    background-color: #FF7BA9;
+    transform: scale(-2);
+    color: #FF7BA9;
+}
+
+/* @media all and (min-width: 511px){
+    .Nav{
+        background-color: #FFBED8;
+    }
+    .h1-title{
+        color: #000;
+    }
+} */
+
+/* responsive */
+
+
+@media all and (min-width: 511px){
+    .ul-ch{
+        font-size: .8rem;
+    }
+}
+@media all and (min-width: 711px){
+    .h1-title{
+        font-size: 2.5rem;
+    }
+    .ul-ch{
+        font-size: .99rem ;
+    }
+}
+@media all and (min-width:1366px){
+    .h1-title{
+        font-size: 3rem ;
+        padding: 1rem;
+    }
+}

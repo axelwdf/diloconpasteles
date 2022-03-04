@@ -1,0 +1,16 @@
+
+.Social{
+    box-sizing: border-box;
+    background-color: #000;
+    padding: 10px;
+    color: #FBE5E5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.h3-social{
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #000;
+}
+.bi-instagram{
+    color: #E60965;
+}

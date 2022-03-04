@@ -1,0 +1,75 @@
+.DataMap{
+    padding: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9rem;
+    margin: 3.5rem auto;
+}
+.imgs{
+    width: 30vmin;
+    /* padding: 2px; */
+    margin: .5rem auto;
+    border-radius: .5rem;
+}
+.DataCh{
+    box-shadow:inset 1px 1px 20px 20px #FDECE2, 0px 0px 10px -2px #000  ;
+    border-radius: .5rem;
+}
+
+/* responsive */
+
+@media all and (min-width: 511px){
+    .DataMap{
+        margin: 5.5rem auto;
+    }
+    .DataCh{
+        width: 60vh;
+        margin: 0 auto;
+    }
+}
+
+@media all and (min-width: 568px ){
+    .DataContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .DataCh{
+        width: 35vh;
+        margin: 1rem auto;
+    }
+}
+@media all and (min-width: 675px ){
+    .DataContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .DataCh{
+        width: 45vh;
+        margin: 1rem auto;
+    }
+}
+@media all and (min-width: 711px){
+    .DataContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .DataCh{
+        width: 50vh;
+        margin: 1rem auto;
+    }
+}
+
+@media all and (min-width: 900px ){
+    .DataMap{
+        margin: 10rem auto;
+    }
+
+    .DataContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .DataCh{
+        width: 40vh;
+        margin: .5rem auto;
+        font-size: 1rem;
+    }
+}
