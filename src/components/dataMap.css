@@ -4,6 +4,9 @@
     font-size: .8rem;
     margin: 10rem auto;
 }
+.h3-title{
+    margin-top: .1rem;
+}
 .imgs{
     width: 30vmin;
     /* padding: 2px; */
@@ -19,7 +22,7 @@
 
 @media all and (min-width: 511px){
     .DataMap{
-        margin: 6rem auto;
+        margin: 5rem auto;
     }
     
     .DataCh{

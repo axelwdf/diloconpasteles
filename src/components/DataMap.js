@@ -5,7 +5,7 @@ import './dataMap.css';
 const Data = () => {
     return(
         <div className="DataMap">
-            <h3 className="h3"> ❤️ <span className="pink">Nuestros</span> productos ❤️ </h3>
+            <h3 className="h3-title"> ❤️ <span className="pink">Nuestros</span> productos ❤️ </h3>
             <div className="DataContainer">
                 {
                     data.map(date => (
