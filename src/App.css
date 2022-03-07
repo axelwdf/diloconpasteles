@@ -49,3 +49,13 @@ body{
 .pink{
   color: #ED5EDD;
 }
+.to-link{
+  text-decoration: none;
+}
+.icon-heart{
+  display: inline;
+  margin: 0 15px;
+}
+.heart{
+  color: #ED5EDD;
+}
