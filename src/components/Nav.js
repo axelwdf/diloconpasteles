@@ -38,7 +38,7 @@ const Nav = () => {
 
             {/* ligas */}
             <ul className="nav-ul">
-                <Link className='to-link' to="/contact" >
+                <Link className='to-link' to="/contact"  >
                     <li className='ul-ch' >Contanos ahora</li>
                 </Link>
                 <Link className='to-link' to="/gallery" >
