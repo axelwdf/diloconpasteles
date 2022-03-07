@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/diloconpasteles/static/css/main.aa143aea.css",
+    "main.css": "/diloconpasteles/static/css/main.7ff550c4.css",
     "main.js": "/diloconpasteles/static/js/main.e527ce42.js",
     "static/js/787.5624aac7.chunk.js": "/diloconpasteles/static/js/787.5624aac7.chunk.js",
     "index.html": "/diloconpasteles/index.html",
-    "main.aa143aea.css.map": "/diloconpasteles/static/css/main.aa143aea.css.map",
+    "main.7ff550c4.css.map": "/diloconpasteles/static/css/main.7ff550c4.css.map",
     "main.e527ce42.js.map": "/diloconpasteles/static/js/main.e527ce42.js.map",
     "787.5624aac7.chunk.js.map": "/diloconpasteles/static/js/787.5624aac7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa143aea.css",
+    "static/css/main.7ff550c4.css",
     "static/js/main.e527ce42.js"
   ]
 }
