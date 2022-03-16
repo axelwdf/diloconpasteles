@@ -15,21 +15,23 @@
 
 .imgs{
     width: 30vmin;
-    /* padding: 2px; */
+    filter: drop-shadow(1px 1px 2px #000);
     margin: .5rem auto;
     border-radius: .5rem;
 }
 .DataCh{
-    box-shadow:inset 1px 1px 20px 20px #FDECE2, 0px 0px 10px -2px #000  ;
+    background-color: #AD8B73;
+    box-shadow: 0px 0px 15px 5px #AD8B73;
     border-radius: .5rem;
 }
 .cookie{
     color: #AD8B73;
     border-radius: 100%; 
-    box-shadow: inset 1px 1px 10px 1px #AD8B73;
+    filter: drop-shadow(0 0 10px #AD8B73); 
 }
 .milk{
     color: #AD8B73;
+    filter: drop-shadow(0 0 10px #AD8B73);
 }
 .cookie-container{
     display: flex;
