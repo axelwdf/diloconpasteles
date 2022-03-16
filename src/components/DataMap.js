@@ -1,11 +1,19 @@
 import data from './data.json';
 import './dataMap.css';
-
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCookieBite, faGlassWater} from '@fortawesome/free-solid-svg-icons'
 
 const Data = () => {
     return(
         <div className="DataMap">
-            <h3 className="h3-title"> ❤️ <span className="pink">Nuestros</span> productos ❤️ </h3>
+            <h3 className="h3-title"> 
+                <span className="pink">Nuestros</span> productos 
+                <div className="cookie-container">
+                    <FontAwesomeIcon icon={faCookieBite} className='cookie' />
+                    <FontAwesomeIcon icon={faGlassWater} className='milk' />
+                </div> 
+            </h3>
+
             <div className="DataContainer">
                 {
                     data.map(date => (

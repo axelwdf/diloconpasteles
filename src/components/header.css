@@ -15,6 +15,7 @@
 }
 
 /* respinsive */
+
 @media all and (min-width: 511px ){
     .img-carousel{
         height: 75vh ;

@@ -45,7 +45,7 @@ input{
 
 /* responsive */
 
-@media all and (min-width:511px){
+@media all and (min-width:500px){
     label{
         margin: 10px;
     }
